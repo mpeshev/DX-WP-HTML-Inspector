@@ -17,10 +17,10 @@
 add_action( 'wp_head', 'dx_wp_html_inspector' );
 
 function dx_wp_html_inspector() {
-	?>
+?>
 	<!--[if gt IE 9]><!-->
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/html-inspector/0.7.0/html-inspector.js"></script>
 	<script>HTMLInspector.inspect()</script>
 	<!--<![endif]-->
-	<?php
+<?php
 }
